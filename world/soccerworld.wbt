@@ -1,0 +1,19 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5403993273178752 0.6434188035655672 0.5421999725679097 1.9898753074759978
+  position 4.595393176990454 25.701447008771577 0.18903041109858876
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RobotstadiumSoccerField {
+}
+DEF BALL SoccerBall {
+}
+Robot {
+  controller "soccer_refree"
+  supervisor TRUE
+}
